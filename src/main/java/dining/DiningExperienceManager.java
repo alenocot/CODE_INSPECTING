@@ -7,10 +7,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DiningExperienceManager {
-    private Map<Integer, Double> menu;
-    private Map<Integer, Integer> order;
+    final private Map<Integer, Double> menu;
+    final  private Map<Integer, Integer> order;
     private double totalCost;
-    private List<String> menuItems;
+    final private List<String> menuItems;
 
     public DiningExperienceManager() {
         menu = new HashMap<>();
@@ -41,7 +41,7 @@ public class DiningExperienceManager {
             System.out.print("Seleccione el número de un plato (o 'fin' para finalizar): ");
             String choice = scanner.nextLine();
 
-            if (choice.equals("fin")) {
+            if ("fin".equals(choice)) {
                 break;
             }
 
@@ -131,7 +131,7 @@ public class DiningExperienceManager {
         System.out.print("¿Desea confirmar el pedido? (Sí/No): ");
         String confirmation = scanner.nextLine().toLowerCase();
 
-        if (confirmation.equalsIgnoreCase("si") || confirmation.equalsIgnoreCase("sí")) {
+        if ("si".equalsIgnoreCase(confirmation) || "sí".equalsIgnoreCase(confirmation)) {
             return (int) totalCost;
         } else {
             System.out.println("Pedido cancelado.");

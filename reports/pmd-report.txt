@@ -1,0 +1,1 @@
+src/main/java/dining/Main.java:3:	UseUtilityClass:	UseUtilityClass: This utility class has a non-private constructor

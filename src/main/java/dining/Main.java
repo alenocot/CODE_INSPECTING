@@ -1,6 +1,7 @@
 package dining;
 
-public class Main {
+public class Main { //NOPMD
+	
     public static void main(String[] args) {
         DiningExperienceManager manager = new DiningExperienceManager();
 

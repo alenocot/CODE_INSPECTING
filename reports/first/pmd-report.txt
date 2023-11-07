@@ -1,0 +1,7 @@
+src/main/java/dining/DiningExperienceManager.java:10:	ImmutableField:	ImmutableField: Field 'menu' may be declared final
+src/main/java/dining/DiningExperienceManager.java:11:	ImmutableField:	ImmutableField: Field 'order' may be declared final
+src/main/java/dining/DiningExperienceManager.java:13:	ImmutableField:	ImmutableField: Field 'menuItems' may be declared final
+src/main/java/dining/DiningExperienceManager.java:44:	LiteralsFirstInComparisons:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/dining/DiningExperienceManager.java:134:	LiteralsFirstInComparisons:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/dining/DiningExperienceManager.java:134:	LiteralsFirstInComparisons:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/dining/Main.java:3:	UseUtilityClass:	UseUtilityClass: This utility class has a non-private constructor
