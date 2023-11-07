@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd>
+    <useProjectRuleSet>false</useProjectRuleSet>
+    <excludePatterns/>
+    <includePatterns/>
+    <rules>
+        <rule>
+            <name>AbstractClassWithoutAbstractMethod</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>AccessorClassGeneration</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>AccessorMethodGeneration</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>ArrayIsStoredDirectly</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>AvoidMessageDigestField</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>AvoidPrintStackTrace</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>AvoidReassigningCatchVariables</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>AvoidReassigningLoopVariables</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>AvoidReassigningParameters</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>AvoidStringBufferField</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>AvoidUsingHardCodedIP</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>CheckResultSet</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>ConstantsInInterface</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>DefaultLabelNotLastInSwitchStmt</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>DoubleBraceInitialization</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>ForLoopCanBeForeach</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>ForLoopVariableCount</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>GuardLogStatement</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>JUnit4SuitesShouldUseSuiteAnnotation</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>JUnit4TestShouldUseAfterAnnotation</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>JUnit4TestShouldUseBeforeAnnotation</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>JUnit4TestShouldUseTestAnnotation</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>JUnit5TestShouldBePackagePrivate</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>JUnitAssertionsShouldIncludeMessage</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>JUnitTestContainsTooManyAsserts</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>JUnitTestsShouldIncludeAssert</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>JUnitUseExpected</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>LiteralsFirstInComparisons</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>LooseCoupling</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>MethodReturnsInternalArray</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>MissingOverride</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>OneDeclarationPerLine</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>PreserveStackTrace</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>PrimitiveWrapperInstantiation</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>ReplaceEnumerationWithIterator</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>ReplaceHashtableWithMap</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>ReplaceVectorWithList</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>SimplifiableTestAssertion</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>SwitchStmtsShouldHaveDefault</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>UnusedAssignment</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>UnusedFormalParameter</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>UnusedLocalVariable</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>UnusedPrivateField</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>UnusedPrivateMethod</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>UseCollectionIsEmpty</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>UseStandardCharsets</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>UseTryWithResources</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>UseVarargs</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>WhileLoopWithLiteralBoolean</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>ImmutableField</name>
+            <ruleset>Design</ruleset>
+        </rule>
+        <rule>
+            <name>UseUtilityClass</name>
+            <ruleset>Design</ruleset>
+        </rule>
+        <rule>
+            <name>AddEmptyString</name>
+            <ruleset>Performance</ruleset>
+        </rule>
+        <rule>
+            <name>AppendCharacterWithChar</name>
+            <ruleset>Performance</ruleset>
+        </rule>
+        <rule>
+            <name>AvoidArrayLoops</name>
+            <ruleset>Performance</ruleset>
+        </rule>
+        <rule>
+            <name>AvoidCalendarDateCreation</name>
+            <ruleset>Performance</ruleset>
+        </rule>
+        <rule>
+            <name>AvoidFileStream</name>
+            <ruleset>Performance</ruleset>
+        </rule>
+        <rule>
+            <name>AvoidInstantiatingObjectsInLoops</name>
+            <ruleset>Performance</ruleset>
+        </rule>
+        <rule>
+            <name>BigIntegerInstantiation</name>
+            <ruleset>Performance</ruleset>
+        </rule>
+        <rule>
+            <name>ConsecutiveAppendsShouldReuse</name>
+            <ruleset>Performance</ruleset>
+        </rule>
+        <rule>
+            <name>ConsecutiveLiteralAppends</name>
+            <ruleset>Performance</ruleset>
+        </rule>
+        <rule>
+            <name>InefficientEmptyStringCheck</name>
+            <ruleset>Performance</ruleset>
+        </rule>
+        <rule>
+            <name>InefficientStringBuffering</name>
+            <ruleset>Performance</ruleset>
+        </rule>
+        <rule>
+            <name>InsufficientStringBufferDeclaration</name>
+            <ruleset>Performance</ruleset>
+        </rule>
+        <rule>
+            <name>OptimizableToArrayCall</name>
+            <ruleset>Performance</ruleset>
+        </rule>
+        <rule>
+            <name>RedundantFieldInitializer</name>
+            <ruleset>Performance</ruleset>
+        </rule>
+        <rule>
+            <name>StringInstantiation</name>
+            <ruleset>Performance</ruleset>
+        </rule>
+        <rule>
+            <name>StringToString</name>
+            <ruleset>Performance</ruleset>
+        </rule>
+        <rule>
+            <name>TooFewBranchesForASwitchStatement</name>
+            <ruleset>Performance</ruleset>
+        </rule>
+        <rule>
+            <name>UseArrayListInsteadOfVector</name>
+            <ruleset>Performance</ruleset>
+        </rule>
+        <rule>
+            <name>UseArraysAsList</name>
+            <ruleset>Performance</ruleset>
+        </rule>
+        <rule>
+            <name>UseIndexOfChar</name>
+            <ruleset>Performance</ruleset>
+        </rule>
+        <rule>
+            <name>UseIOStreamsWithApacheCommonsFileItem</name>
+            <ruleset>Performance</ruleset>
+        </rule>
+        <rule>
+            <name>UselessStringValueOf</name>
+            <ruleset>Performance</ruleset>
+        </rule>
+        <rule>
+            <name>UseStringBufferForStringAppends</name>
+            <ruleset>Performance</ruleset>
+        </rule>
+        <rule>
+            <name>UseStringBufferLength</name>
+            <ruleset>Performance</ruleset>
+        </rule>
+    </rules>
+    <includeDerivedFiles>false</includeDerivedFiles>
+    <violationsAsErrors>true</violationsAsErrors>
+    <fullBuildEnabled>true</fullBuildEnabled>
+</pmd>
